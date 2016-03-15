@@ -1,0 +1,102 @@
+/*
+	Directive by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/********SUB PAGINAS *******************/
+
+.submenu p{
+	width: 100%;
+}
+
+
+/* Basic */
+
+	h2 {font-size: 1em;}
+	h3 {font-size: 1em;}
+
+/* Section/Article */
+
+	header p {font-size: 0.8em;}
+	header.major {margin-bottom: 2em;}
+		header.major p {font-size: 0.8em;}
+	footer.major {margin-top: 2em;}
+
+
+/* List */
+
+	ul.actions li {	padding: 0 0 0 15px;}
+	ul.actions.vertical li {padding: 15px 0 0 0;}
+
+
+/* Feature */
+
+	.feature {
+		background: white;
+		display: inline-block;
+		height: auto;
+	}
+
+		.feature:last-child {margin-bottom: 0;}
+
+		.feature .image {
+			float: none;
+			height: 15em;
+			width: 100%;
+		}
+
+		
+
+/******** HEADER*******/
+
+	#header {
+		background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../images/header.jpg");
+		background-size: 1280px 184px,						auto,							cover;
+		padding: 3em 0 7em 0;
+	}
+
+		#header:before {height: calc(100% - 20px);}
+	/*	#header:after {height: 20px;}*/
+		#header .logo {font-size: 1.5em; width: 50%;}
+		#header h1 {font-size: 1.25em;}
+		#header p {	font-size: 1em;}
+
+
+
+/*JUNTAS*/
+		#juntas {
+		background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../images/convocatoria_juntas.jpg");
+		background-size: 1280px 184px,						auto,							cover;
+		padding: 3em 0 7em 0;
+	}
+
+		#juntas:before {height: calc(100% - 20px);}
+		#juntas:after {	height: 20px;}
+		#juntas .logo {	font-size: 1.5em;}
+		#juntas h1 {font-size: 1.25em;}
+		#juntas p {font-size: 1em;}
+
+
+/* Footer */
+
+	#footer {
+		background-image: url("images/bottom-1280.svg");
+		background-size: 1280px 184px;
+		margin-top: -75px;
+		padding: calc(184px + 2em) 0 2em 0;
+	}
+
+		#footer:before {
+			height: calc(184px + 2em);
+		}
+
+		#footer form {
+			padding-bottom: 0;
+		}
+
+/* Main */
+
+	#main {
+		padding: 2em 0 2em 0;
+	}
